@@ -1,0 +1,51 @@
+
+/********************** Header css Is Start **********************/
+
+header li a {
+    background: #FFDACD;
+}
+
+header li .bg-color {
+    background: linear-gradient(90deg, #FF7A4A 0%, #F36047 100%);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/********************** Header css Is End **********************/
+
+/********************** Banner_section css Is Start **********************/
+
+.Banner_Section .banner_img {
+    margin-bottom: -2%;
+}
+
+
+.Banner_Section h1{ 
+color: #000;
+}
+
+.bg_img {
+  background-image: url(../images/Group\ 486013.png);
+}
+
+bold {
+  animation: colorchange 3s infinite alternate;
+  color: #F3554A;
+}
+@keyframes colorchange {
+  10% {
+    color: #F3554A;
+  }
+  100% {
+    color: #ffa2a2;
+  }
+}
+@-webkit-keyframes colorchange {
+  10% {
+    color: #F3554A;
+  }
+  100% {
+    color: #ffa2a2;
+  }
+}
+
+/********************** Banner_section css Is End **********************/

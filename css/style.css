@@ -356,7 +356,7 @@ section.section_six {
   border-radius: 500px;
   border: 1px solid #cecece;
   background: #fff;
-  padding: 21.5px 257px 26.5px 40px;
+  padding: 21.5px 246px 22.5px 40px;
   font-size: 21px;
 }
 
@@ -372,7 +372,7 @@ section.section_six {
   display: inline-block;
   position: absolute;
   right: 0px;
-  top: 10px;
+  top: 8px;
 }
 
 .section_six .right-img {
