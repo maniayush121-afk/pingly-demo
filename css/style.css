@@ -207,12 +207,21 @@ bold {
   margin-bottom: 30px;
 }
 
-.section_two p {
-  margin-bottom: 30px;
-}
-
 .section_two p:last-child {
   margin-bottom: unset;
+}
+
+.section_two p {
+  margin-bottom: 30px;
+  display:flex ;
+}
+
+.section_two p span {
+  margin-right: 10px;
+}
+
+.section_two p span svg {
+  fill: #575757;
 }
 
 /********************** section_two css Is End **********************/
@@ -296,6 +305,7 @@ bold {
 
 .section_five p {
   margin-bottom: 5px;
+  display:flex;
 }
 
 .section_five .left-img {
@@ -310,6 +320,14 @@ bold {
 .section_five .flex_row {
   align-items: center;
   padding: 0 0 150px;
+}
+
+.section_five p span {
+  margin-right: 10px;
+}
+
+.section_five p span svg {
+  fill: #575757;
 }
 
 /********************** section_five css Is End **********************/
@@ -378,6 +396,7 @@ section.section_six {
 .section_six .right-img {
   width: 47.5%;
 }
+
 
 /********************** section_six css Is End **********************/
 
