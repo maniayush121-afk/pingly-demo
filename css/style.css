@@ -1,0 +1,1051 @@
+/********************** Font  CSS  start**********************/
+
+@import url(https://db.onlinewebfonts.com/c/1a204cd3ccb7f25e06faa548e6251a59?family=Fabriga);
+
+@font-face {
+  font-family: "Fabriga";
+  src: url("https://db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.eot");
+  src:
+    url("https://db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1a204cd3ccb7f25e06faa548e6251a59.svg#Fabriga")
+      format("svg");
+}
+/********************** Font  CSS  end**********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: "Fabriga";
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1590px;
+}
+
+/********************** Reset CSS **********************/
+
+/********************** Typography  Css Is start **********************/
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+p {
+  color: #575757;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.flex_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reverse_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.bg_img {
+  background-image: url(../images/Group\ 302\ \(3\).png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  display: inline-block;
+}
+
+/********************** Typography Css Is End **********************/
+
+/********************** Header css Is Start **********************/
+
+header {
+  padding: 26px 0 60px;
+}
+
+header .logo {
+  max-width: 195px;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 14px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+header li:nth-child(2n) {
+  margin-right: unset;
+}
+
+header li a {
+  padding: 15.5px 42px;
+  border-radius: 45px;
+  background: #fff5f3;
+}
+
+header li .bg-color {
+  background: #ff974d;
+  color: #fff;
+}
+
+header li a:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+header .flex_row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  display: none;
+}
+
+/********************** Header css Is End **********************/
+
+/********************** Banner_section css Is Start **********************/
+.Banner_Section {
+  padding: 60px 0 40px;
+}
+
+.Banner_Section h1 {
+  text-align: center;
+  color: #fff;
+  max-width: 901px;
+  margin: auto;
+}
+
+.Banner_Section .banner_img {
+  margin-bottom: -4%;
+}
+
+bold {
+  animation: colorchange 3s infinite alternate;
+}
+@keyframes colorchange {
+  10% {
+    color: #000;
+  }
+  100% {
+    color: #ffa2a2;
+  }
+}
+@-webkit-keyframes colorchange {
+  10% {
+    color: #000;
+  }
+  100% {
+    color: #ffa2a2;
+  }
+}
+
+/********************** Banner_section css Is End **********************/
+
+/********************** section_two css Is Start **********************/
+
+.section_two {
+  background: linear-gradient(#fffcf533, 20%, #fffcf5);
+  padding: 60px 0;
+  list-style: outside;
+  color: rgba(87, 87, 87, 1);
+  font-size: 30px;
+}
+
+.section_two .text_content {
+  width: 37%;
+}
+
+.section_two .right_img {
+  width: 63%;
+}
+
+.section_two .flex_row {
+  align-items: center;
+}
+
+.section_two h2 {
+  margin-bottom: 30px;
+}
+
+.section_two p {
+  margin-bottom: 30px;
+}
+
+.section_two p:last-child {
+  margin-bottom: unset;
+}
+
+/********************** section_two css Is End **********************/
+
+/********************** section_three css Is start **********************/
+
+.section_three {
+  padding: 100px 0 0;
+}
+
+.section_three h2 {
+  margin-bottom: 30px;
+}
+
+.section_three p {
+  margin-bottom: 30px;
+}
+
+.section_three p:last-child {
+  margin-bottom: unset;
+}
+
+.section_three .left-img {
+  width: 50%;
+}
+
+.section_three .right-content {
+  width: calc(50% - 200px);
+  margin-left: 200px;
+}
+
+.section_three .flex_row {
+  align-items: center;
+}
+
+/********************** section_three css Is End **********************/
+
+/********************** section_four css Is Start **********************/
+
+.bg-img-2 {
+  background-image: url(../images/Vector\ 5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section_four {
+  padding: 100px 0;
+}
+
+.section_four .flex_row {
+  align-items: center;
+  padding: 170px 0 0;
+}
+
+.section_four h2 {
+  margin-bottom: 30px;
+}
+
+.section_four .txt-content {
+  width: calc(43% - 97px);
+  margin-right: 20px;
+}
+
+.section_four .left-img {
+  width: 56.5%;
+}
+
+/********************** section_four css Is End **********************/
+
+/********************** section_five css Is Start **********************/
+
+.section_five h2 {
+  margin-bottom: 30px;
+}
+
+.section_five p:nth-child(2) {
+  margin-bottom: 20px;
+  max-width: 570px;
+}
+
+.section_five p {
+  margin-bottom: 5px;
+}
+
+.section_five .left-img {
+  width: 50%;
+  margin-right: 60px;
+}
+
+.section_five .txt-content {
+  width: calc(50% - 170px);
+}
+
+.section_five .flex_row {
+  align-items: center;
+  padding: 0 0 150px;
+}
+
+/********************** section_five css Is End **********************/
+
+/********************** section_six css Is Start **********************/
+
+section.section_six {
+  padding: 140px 0 100px;
+}
+
+.section_six .flex_row {
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.section_six .left-text-content {
+  width: 50%;
+  padding-right: 200px;
+}
+
+.section_six p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section_six .p {
+  max-width: 460px;
+  margin: 30px auto;
+  color: #000;
+  line-height: 22px;
+}
+
+.section_six .grp {
+  text-align: center;
+}
+
+.section_six .email-input {
+  position: relative;
+  max-width: 543px;
+  margin: auto;
+}
+
+.section_six input#emails {
+  border-radius: 500px;
+  border: 1px solid #cecece;
+  background: #fff;
+  padding: 21.5px 257px 26.5px 40px;
+  font-size: 21px;
+}
+
+.section_six .btn a {
+  padding: 18.5px 42.6px;
+  align-items: center;
+  border-radius: 45px;
+  background: linear-gradient(90deg, #ff974d 0%, #f36047 100%);
+  color: #fff;
+}
+
+.section_six .btn {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.section_six .right-img {
+  width: 47.5%;
+}
+
+/********************** section_six css Is End **********************/
+
+/********************** footer css Is Start **********************/
+
+footer {
+  background-color: rgba(9, 4, 44, 1);
+  text-align: center;
+  padding: 76px 0;
+}
+
+footer p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 619px;
+  margin: 40px auto 0;
+  line-height: 26px;
+}
+
+footer .icons {
+  margin: 90px auto;
+  padding-right: 10px;
+}
+
+footer .icons img {
+  padding-right: 10px;
+}
+
+footer .icons img:nth-child(3) {
+  padding-right: 0px;
+}
+
+/********************** footer css Is End **********************/
+
+/********************** Media Queries for Responsiveness **********************/
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .container {
+    padding: 0 18px;
+  }
+
+  header {
+    padding: 24px 0 50px;
+  }
+
+  header .logo {
+    max-width: 180px;
+  }
+
+  header li a {
+    padding: 14px 38px;
+  }
+
+  .Banner_Section {
+    padding: 50px 0 35px;
+  }
+
+  .section_two {
+    padding: 50px 0;
+  }
+
+  .section_three {
+    padding: 80px 0 0;
+  }
+
+  .section_four {
+    padding: 80px 0;
+  }
+
+  .section_four .flex_row {
+    padding: 140px 0 0;
+  }
+
+  .section_five .flex_row {
+    padding: 0 0 120px;
+  }
+
+  .section_six {
+    padding: 120px 0 80px !important;
+  }
+
+  .section_six .flex_row {
+    padding-bottom: 120px;
+  }
+
+  .section_six .left-text-content {
+    padding-right: 150px;
+  }
+
+  .section_six .btn a {
+    padding: 17px 40px;
+  }
+
+  footer {
+    padding: 65px 0;
+  }
+
+  footer p:nth-child(2) {
+    margin: 35px auto 0;
+  }
+
+  footer .icons {
+    margin: 75px auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 19px;
+    line-height: 29px;
+  }
+
+  .container {
+    padding: 0 17px;
+  }
+
+  header {
+    padding: 22px 0 45px;
+  }
+
+  header .logo {
+    max-width: 170px;
+  }
+
+  header li {
+    font-size: 16px;
+  }
+
+  header li a {
+    padding: 13px 35px;
+  }
+
+  .Banner_Section {
+    padding: 45px 0 32px;
+  }
+
+  .section_two {
+    padding: 45px 0;
+  }
+
+  .section_three {
+    padding: 70px 0 0;
+  }
+
+  .section_four {
+    padding: 70px 0;
+  }
+
+  .section_four .flex_row {
+    padding: 120px 0 0;
+  }
+
+  .section_five .flex_row {
+    padding: 0 0 110px;
+  }
+
+  .section_six {
+    padding: 110px 0 70px !important;
+  }
+
+  .section_six .flex_row {
+    padding-bottom: 110px;
+  }
+
+  .section_six .left-text-content {
+    padding-right: 120px;
+  }
+
+  footer {
+    padding: 60px 0;
+  }
+
+  footer p:nth-child(2) {
+    margin: 32px auto 0;
+  }
+
+  footer .icons {
+    margin: 70px auto;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  header {
+    padding: 20px 0 40px;
+  }
+
+  header .logo {
+    max-width: 150px;
+  }
+
+  header li a {
+    padding: 12px 30px;
+  }
+
+  .Banner_Section {
+    padding: 40px 0 30px;
+  }
+
+  .section_two {
+    padding: 40px 0;
+  }
+
+  .section_two .text_content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .section_two .right_img {
+    width: 100%;
+  }
+
+  .section_two .flex_row {
+    flex-direction: column;
+  }
+
+  .section_three {
+    padding: 60px 0 0;
+  }
+
+  .section_three .left-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .section_three .right-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .section_three .flex_row {
+    flex-direction: column;
+  }
+
+  .section_four {
+    padding: 60px 0;
+  }
+
+  .section_four .flex_row {
+    padding: 100px 0 0;
+    flex-direction: column;
+  }
+
+  .section_four .txt-content {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .section_four .left-img {
+    width: 100%;
+  }
+
+  .section_five .flex_row {
+    padding: 0 0 100px;
+    flex-direction: column;
+  }
+
+  .section_five .left-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .section_five .txt-content {
+    width: 100%;
+  }
+
+  .section_six {
+    padding: 100px 0 60px !important;
+  }
+
+  .section_six .flex_row {
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+
+  .section_six .left-text-content {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .section_six .right-img {
+    width: 100%;
+  }
+
+  .section_six input#emails {
+    padding: 18px 200px 20px 30px;
+    font-size: 18px;
+  }
+
+  .section_six .btn a {
+    padding: 15px 35px;
+  }
+
+  footer {
+    padding: 50px 0;
+  }
+
+  footer p:nth-child(2) {
+    margin: 30px auto 0;
+  }
+
+  footer .icons {
+    margin: 60px auto;
+  }
+
+  header button.start {
+    display: block;
+    right: 10px;
+    font-size: 50px;
+    background-color: rgba(31, 58, 81, 0.9);
+    width: 60px;
+    border: none;
+  }
+
+  header nav {
+    background-color: #f36047;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 66%;
+    width: 100%;
+    padding: 0 20px 20px;
+    z-index: 3;
+  }
+
+  header {
+    position: relative;
+  }
+
+  header li {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .section_six .btn {
+    margin-right: 60px;
+    top: 7px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  header {
+    padding: 20px 0 40px;
+  }
+
+  header .logo {
+    max-width: 150px;
+  }
+
+  header li {
+    font-size: 16px;
+  }
+
+  header li a {
+    padding: 12px 30px;
+  }
+
+  .Banner_Section {
+    padding: 40px 0 30px;
+  }
+
+  .section_two {
+    padding: 40px 0;
+  }
+
+  .section_two .text_content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .section_two .right_img {
+    width: 100%;
+  }
+
+  .section_two .flex_row {
+    flex-direction: column;
+  }
+
+  .section_three {
+    padding: 60px 0 0;
+  }
+
+  .section_three .left-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .section_three .right-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .section_three .flex_row {
+    flex-direction: column;
+  }
+
+  .section_four {
+    padding: 60px 0;
+  }
+
+  .section_four .flex_row {
+    padding: 100px 0 0;
+    flex-direction: column;
+  }
+
+  .section_four .txt-content {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .section_four .left-img {
+    width: 100%;
+  }
+
+  .section_five .flex_row {
+    padding: 0 0 100px;
+    flex-direction: column;
+  }
+
+  .section_five .left-img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .section_five .txt-content {
+    width: 100%;
+  }
+
+  .section_six {
+    padding: 100px 0 60px;
+  }
+
+  .section_six .flex_row {
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+
+  .section_six .left-text-content {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .section_six .right-img {
+    width: 100%;
+  }
+
+  .section_six input#emails {
+    padding: 18px 200px 20px 30px;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 50px 0;
+  }
+
+  footer p:nth-child(2) {
+    margin: 30px auto 0;
+  }
+
+  footer .icons {
+    margin: 60px auto;
+  }
+}
+
+@media (max-width: 584px) {
+.section_six .btn {
+  margin-right: 50px;
+}
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  header {
+    padding: 15px 0 30px;
+  }
+
+  header .logo {
+    max-width: 120px;
+  }
+
+  header li {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  header li a {
+    padding: 10px 20px;
+  }
+
+  .Banner_Section {
+    padding: 30px 0 20px;
+  }
+
+  .section_two {
+    padding: 30px 0;
+  }
+
+  .section_two h2 {
+    margin-bottom: 20px;
+  }
+
+  .section_two p {
+    margin-bottom: 20px;
+  }
+
+  .section_three {
+    padding: 40px 0 0;
+  }
+
+  .section_three h2 {
+    margin-bottom: 20px;
+  }
+
+  .section_three p {
+    margin-bottom: 20px;
+  }
+
+  .section_four {
+    padding: 40px 0;
+  }
+
+  .section_four .flex_row {
+    padding: 80px 0 0;
+  }
+
+  .section_four h2 {
+    margin-bottom: 20px;
+  }
+
+  .section_five h2 {
+    margin-bottom: 20px;
+  }
+
+  .section_five p:nth-child(2) {
+    margin-bottom: 15px;
+  }
+
+  .section_five p {
+    margin-bottom: 3px;
+  }
+
+  .section_five .flex_row {
+    padding: 0 0 60px;
+  }
+
+  .section_six {
+    padding: 80px 0 40px !important;
+  }
+
+  .section_six .flex_row {
+    padding-bottom: 60px;
+  }
+
+  .section_six p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .section_six .p {
+    margin: 20px auto;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .section_six input#emails {
+    padding: 15px 150px 18px 25px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .section_six .btn a {
+    padding: 10px 17px;
+  }
+
+.section_six .btn {
+ margin-right: 10px;
+}
+
+  footer {
+    padding: 40px 0;
+  }
+
+  footer p:nth-child(2) {
+    margin: 20px auto 0;
+    line-height: 22px;
+  }
+
+  footer .icons {
+    margin: 40px auto;
+  }
+
+  footer .icons img {
+    padding-right: 8px;
+  }
+}
